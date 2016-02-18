@@ -39,6 +39,7 @@
       (goto-char (point-max))
       (eval-print-last-sexp)))
   ;; build melpa packages for el-get
+  (package-initialize)
   (el-get-install 'package)
   (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
                            ("melpa" . "http://melpa.org/packages/")))
@@ -79,4 +80,36 @@ FILENAME defaults to `buffer-file-name'."
 ;; load up the ome
 (org-babel-load-file (expand-file-name "ome.org" ome-dir))
 
+(add-to-list 'load-path "~/.emacs.d/user-custom-packages")
+(require 'dirtree)
+(autoload 'dirtree "dirtree" "Add directory to tree view" t)
+
+;;; C-g as general purpose escape key sequence.
+(defun my-esc (prompt)
+  "Functionality for escaping generally. Include exiting Evil insert state and
+C-g binding."
+  (cond
+   ;; If we're in one of the Evil states that defines [escape] so as
+   ;; Key lookup will use it.
+   ((or (evil-insert-state-p) (evil-normal-state-p) (evil-replace-state-p)
+        (evil-visual-state-p)) [escape])
+   ;; This is the best way I could infer for now to C-g work during
+   ;; evil-read-key.
+   ;; Note: As long as I return [escape] in normal-state, I don't need this.
+   ;; ((eq overriding-terminal-local-map evil-read-key-map) (keyboard-quit)
+   ;; (kbd ""))
+   (t (kbd "C-g"))
+   )
+  )
+
+(define-key key-translation-map (kbd "C-g") 'my-esc)
+;; Works around the fact that Evil uses read-event directly when in operator
+;; state, which doesn't use the key-translation-map.
+(define-key evil-operator-state-map (kbd "C-g") 'keyboard-quit)
+;; Not sure what behavior this changes, but might as well set it, seeing the
+;; Elisp manual's documentation on it.
+(set-quit-char "C-g")
+
+
+(evil-mode)
 ;;; init.el ends here

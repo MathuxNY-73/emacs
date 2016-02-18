@@ -1,0 +1,93 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/Criteo.TestFwk.UTest/WebAPI/Controllers/" . "FeaturesTransformation/")
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/Criteo.TestFwk.UTest/WebAPI/" . "Controllers/")
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/Criteo.TestFwk.UTest/" . "WebAPI/")
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/WebUI/AngularUI/js/" . "directives/")
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/WebUI/AngularUI/" . "views/")
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/WebUI/" . "AngularUI/")
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/" . "WebUI/")
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/" . "src/")
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/" . "criteo-testfwk/")
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/" . "engine-infrastructure/")
+ ("/home/a.pouillaude/Workspace/src/" . "CriteoProjects/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/a.pouillaude/Workspace/"
+ "/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/WebUI/AngularUI/js/directives/"
+ "/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/Criteo.TestFwk.UTest/WebAPI/Controllers/FeaturesTransformation/"
+ "/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/Criteo.TestFwk.UTest/WebAPI/Controllers/JoinDataSource/"
+ "/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/Criteo.TestFwk.UTest/WebAPI/Controllers/MergeDataSource/"
+ "/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/WebUI/AngularUI/views/test/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "scratchBuffer2"
+ "test-fwk-api-directives.js"
+ "T_CubeDataQueryController.cs"
+ "test-api-debug.html"
+ "json-text-input.js"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/a.pouillaude/Workspace/" (22156 62328 967442 800000) "src/" "scratchBuffer~" "scratchBuffer2" "scratchBuffer" "parser.cs~" "parser.cs" "omnisharp-server/" "npm-debug.log" "node_modules/" "node-v4.1.1.tar.gz" "node-v4.1.1/" "node-v0.4.12.tar.gz" "node-v0.4.12/" "lib/" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/WebUI/AngularUI/js/services/" (22103 13838 210514 600000) "test-service.js" "test-results-service.js" "test-results-service-api.js" "nonreg-service.js" "healthStatistics-service.js" "custom-log-service.js" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/WebUI/AngularUI/js/directives/" (22104 9492 884583 400000) "test-fwk-cube-ds.tmpl.cshtml" "test-fwk-api-directives.js" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/WebUI/AngularUI/js/" (22100 11651 229165 600000) "services/" "filters/" "directives/" "dialog/" "controllers/" "app.js" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/WebUI/AngularUI/" (22102 64075 500441 100000) "views/" "lib/" "js/" "Index.aspx.designer.cs" "Index.aspx.cs" "Index.aspx" "img/" "css/" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/WebUI/" (22103 13838 219515 500000) "WebUI.csproj.user" "WebUI.csproj" "WebTemplate.Release.config" "WebTemplate.Local.config" "WebTemplate.Debug.config" "WebTemplate.config" "Web.config" "Tools/" "TestResultViewer/" "Styles/" "SProcDumper.cs" "Site.Master.designer.cs" "Site.Master.cs" "Site.Master" "ServersState/" "Servers2.aspx.designer.cs" "Servers2.aspx.cs" "Servers2.aspx" "Servers.aspx.designer.cs" "Servers.aspx.cs" "Servers.aspx" "Scripts/" "Results.aspx.designer.cs" "Results.aspx.cs" "Results.aspx" "Recherche.aspx.designer.cs" "Recherche.aspx.cs" "Recherche.aspx" "Properties/" "packages.config" "obj/" "NoRegTests/" "NextTests.aspx.designer.cs" "NextTests.aspx.cs" "NextTests.aspx" "NewTest/" "MyTests.aspx.designer.cs" "MyTests.aspx.cs" "MyTests.aspx" "Media/" "License.txt" "Lib/" "Infos/" "graphs/" "Global.asax.cs" "Global.asax" "FailureQualification.aspx.designer.cs" "FailureQualification.aspx.cs" "FailureQualification.aspx" "FailureQualification/" "DiagnosticParser/" "Detail.aspx.designer.cs" "Detail.aspx.cs" "Detail.aspx" "Default.aspx.designer.cs" "Default.aspx.cs" "Default.aspx" "DataService/" "criteoConnectionStrings.config" "Components/" "changes.txt" "bin/" "App_Start/" "App_Readme/" "App_Data/" "AngularUI/" "AllTest.aspx.designer.cs" "AllTest.aspx.cs" "AllTest.aspx" "Account/" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/" (22100 13553 269404 400000) "WebUILib/" "WebUI/" "Criteo.TestFwk.WebAPI/" "Criteo.TestFwk.ValidationPredict/" "Criteo.TestFwk.ValidationPreAggregator/" "Criteo.TestFwk.ValidationDataReader/" "Criteo.TestFwk.ValidationDataProcessing/" "Criteo.TestFwk.ValidationAggregator/" "Criteo.TestFwk.UTest/" "Criteo.TestFwk.TestScheduler/" "Criteo.TestFwk.Common/" "Criteo.TestFwk.AggregatedData.WebUI/" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/Criteo.TestFwk.UTest/WebAPI/Controllers/" (22104 7119 278246 500000) "T_QueryCursor.cs" "TestFwkDataSource/" "PivotDimensions/" "MergeDataSource/" "JoinDataSource/" "FeaturesTransformation/" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/Criteo.TestFwk.UTest/WebAPI/Controllers/FeaturesTransformation/" (22103 13659 687664 100000) "T_CubeDescriptionController.cs" "T_CubeDataQueryController.cs" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/Criteo.TestFwk.UTest/WebAPI/Controllers/JoinDataSource/" (22103 6032 887001 700000) "T_CubeDescriptionController.cs" "T_CubeDataQueryController.cs" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/Criteo.TestFwk.UTest/WebAPI/Controllers/MergeDataSource/" (22103 2691 273855 0) "T_CubeDescriptionController.cs" "T_CubeDataQueryController.cs" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/Criteo.TestFwk.UTest/" (22102 64074 705441 100000) "WebUI/" "WebAPI/" "Validation/" "Utility/" "T_XMLSerializer.cs" "T_TestConfig.cs" "T_OfficialConfigChecker.cs" "T_JiraStatisticsComputer.cs" "T_HealthStatisticsComputer.cs" "T_HealthStateComputer.cs" "T_DimensionManager.cs" "T_ConfigManager.cs" "T_ConfigChecker.cs" "Result/" "Properties/" "Program.cs" "packages.config" "obj/" "Noreg/" "Git/" "Dimensions/" "DataService/" "data/" "Criteo.TestFwk.UTest.csproj.user" "Criteo.TestFwk.UTest.csproj" "Common/" "App_Readme/" "App.config" "API/" "AngularUI/" "Aggregation/" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/Criteo.TestFwk.UTest/WebAPI/" (22102 64074 722441 100000) "GlobalSetup.cs" "DataDescription/" "Controllers/" "AbstractServiceTestImpl.cs" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/Criteo.TestFwk.UTest/WebAPI/Controllers/TestFwkDataSource/" (22103 1528 554594 700000) "T_CubeDescriptionController.cs" "T_CubeDataQueryController.cs" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/WebUI/AngularUI/views/test/" (22093 60097 435571 400000) "test.html" "test-validation.html" "test-validation-projections.html" "test-validation-observations.html" "test-training.html" "test-general.html" "test-general-features.html" "test-general-features-raw.html" "test-general-dimensions.html" "test-dates.html" "test-api-debug.html" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/WebUI/AngularUI/views/" (21990 63271 971341 800000) "test/" "nonreg/" "log/" "list/" "healthStatistics/" "dialog/" "../" "./")
+
+ ("/home/" (22071 13414 90053 700000) "DataDescription/" "Criteo.TestFwk.UTest/" "a.pouillaude/" "../" "./")
+
+ ("/home/a.pouillaude/" (22093 59489 435777 500000) "Workspace/" "vim/" "vcprompt/" "ssh-log" "emacs-X11.exe.stackdump" "cbs.log" "Cambridge - The Art of Electronics - 2nd ed. -  Horowitz & Hill.pdf" "bin/" "bash_profile.old" "bashrc.old" "apt-cyg/" ".vimviews/" ".vimundo/" ".vimswap/" ".vimrc.local" ".vimrc.bundles" ".vimrc.before" ".vimrc" ".viminfo" ".vimbackup/" ".vim/" ".subversion/" ".ssh/" ".spf13-vim-3/" ".rbenv/" ".profile" ".logout" ".lesshst" ".inputrc" ".gitconfig~" ".gitconfig" ".emacs.old" ".emacs.d/" ".config/" ".cache/" ".bash_profile" ".bash_logout" ".bash_history" ".bashrc" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/" (22093 40582 839217 600000) "Gource/" "glew/" "CriteoProjects/" "cbs.log" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/Criteo.TestFwk.AggregatedData.WebUI/" (22026 32025 677519 400000) "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/" (22052 55189 84797 500000) "packages/" "obj/" "logs/" "engine-prediction/" "engine-infrastructure/" "engine-features/" "criteoprojects.v11.suo" "criteoprojects.sln.DotSettings.user" "criteoprojects.sln" "cbs.log" "bin/" ".nuget/" ".cbs/" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/" (22076 54285 20383 400000) "Tests.nunit" "src/" "script/" "OWNERS" "Criteo.TestFwk.TestRunner.v11.suo" "Criteo.TestFwk.TestRunner.sln" "cbs.log" "bin/" ".nuget/" ".gitignore" ".git/" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/WebUI/AngularUI/js/controllers/" (22008 16919 896982 600000) "test.js" "test-ui.js" "test-results-api-ctrl.js~" "test-results-api-ctrl.js" "results-tests.js" "nonreg.js" "list-tests.js" "index.js" "healthStatistics.js" "custom-log.js" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/" (21990 63249 161341 800000) "criteo-testfwk/" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-features/" (22002 37133 646433 900000) "engine-webcore/" "engine-papatool/" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-features/engine-webcore/" (22006 36873 517795 100000) "Criteo.EngineTooling.WebCore/" ".gitignore" ".git/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
