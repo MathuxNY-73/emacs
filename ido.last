@@ -2,6 +2,8 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-features/engine-papatool/Criteo.PapaTooling.UI.E2ETest/" . "e2e-tests/")
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-features/engine-papatool/Criteo.PapaTooling.UI.E2ETest/e2e-tests/" . "util/")
  ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/Criteo.TestFwk.UTest/WebAPI/Controllers/" . "FeaturesTransformation/")
  ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/Criteo.TestFwk.UTest/WebAPI/" . "Controllers/")
  ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/Criteo.TestFwk.UTest/" . "WebAPI/")
@@ -17,6 +19,9 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/Criteo.TestFwk.UI.JS.UTest/AngularUI/config/"
+ "/home/a.pouillaude/Workspace/src/CriteoProjects/engine-features/engine-papatool/Criteo.PapaTooling.UI.E2ETest/e2e-tests/util/"
+ "/home/a.pouillaude/Workspace/src/CriteoProjects/engine-features/engine-papatool/Criteo.PapaTooling.UI.E2ETest/e2e-tests/pages/"
  "/home/a.pouillaude/Workspace/"
  "/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/WebUI/AngularUI/js/directives/"
  "/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/Criteo.TestFwk.UTest/WebAPI/Controllers/FeaturesTransformation/"
@@ -27,6 +32,11 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "karma.conf.js"
+ "select2Base.js"
+ "ProjectGeneralTab.js"
+ "ModelDesignProjects.js"
+ "baseModal.js"
  "scratchBuffer2"
  "test-fwk-api-directives.js"
  "T_CubeDataQueryController.cs"
@@ -36,7 +46,33 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/a.pouillaude/Workspace/" (22156 62328 967442 800000) "src/" "scratchBuffer~" "scratchBuffer2" "scratchBuffer" "parser.cs~" "parser.cs" "omnisharp-server/" "npm-debug.log" "node_modules/" "node-v4.1.1.tar.gz" "node-v4.1.1/" "node-v0.4.12.tar.gz" "node-v0.4.12/" "lib/" "../" "./")
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/Criteo.TestFwk.UI.JS.UTest/AngularUI/config/" (22424 33502 610927 100000) "karma.conf.js" "karma-e2e.conf.js" "jasmine_template.html" ".#karma.conf.js" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/" (22311 19354 215937 100000) "src/" "scratchBuffer~" "scratchBuffer2" "scratchBuffer" "parser.cs~" "parser.cs" "omnisharp-server/" "npm-debug.log" "node_modules/" "node-v4.1.1.tar.gz" "node-v4.1.1/" "node-v0.4.12.tar.gz" "node-v0.4.12/" "lib/" "InternshipReport/" "drafts/" "#scratchBuffer2#" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/" (22250 31779 744 200000) "MyCode/" "Module.cs" "Gource/" "glew/" "engine-abtests/" "CriteoProjects/" "CriteoDB/" "cbs.log" "AbTestDraftController.cs" "abtest/" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/" (22344 8073 106365 0) "testfwk/" "result2.json~" "result.json~" "result.json" "result" "replace.pl" "packages/" "obj/" "logs/" "engine-prediction/" "engine-infrastructure/" "engine-features/" "dataDraft.json" "criteoprojects.v11.suo" "criteoprojects.sln.old" "criteoprojects.sln.DotSettings.user" "criteoprojects.sln.DotSettings" "criteoprojects.sln" "criteo/" "cbs.log" "bin/" ".vs/" ".nuget/" ".cbs/" "#result.json#" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-features/" (22329 48779 686024 400000) "feature-selection-tool/" "engine-webcore/" "engine-papatool/" "bin/" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-features/engine-papatool/" (22344 34071 431205 200000) "WE-settings.xml" "scripts/" "report/" "README_angular_skeleton.md" "README.txt" "OWNERS" "opencover.sh" "Criteo.PapaTooling.UTest/" "Criteo.PapaTooling.UI.STest/" "Criteo.PapaTooling.UI.E2ETest/" "Criteo.PapaTooling.UI/" "Criteo.PapaTooling.sln.DotSettings" "Criteo.PapaTooling.sln" "Criteo.PapaTooling.PredictionAdmin/" "Criteo.PapaTooling.CLI/" "Criteo.PapaTooling.API/" "Criteo.PapaTool.Worker.Service/" ".idea/" ".gitignore" ".git/" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-features/engine-papatool/Criteo.PapaTooling.UI.E2ETest/" (22349 31902 385348 700000) "scripts/" "report/" "protractor.conf.js" "protractor.base.conf.js" "package.json" "node_modules/" "Gulpfile.js" "e2e-tests/" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-features/engine-papatool/Criteo.PapaTooling.UI.E2ETest/e2e-tests/pages/" (22349 28190 641348 700000) "ValidationTemplate/" "ModelDesign/" "LoginPage.js" "HomePage.js" "BasePage.js" "AnalysisReport.js" "AnalysisDetail.js" "AbTestDraftCreate.js" "AbTestAnalysis.js" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-features/engine-papatool/Criteo.PapaTooling.UI.E2ETest/e2e-tests/pages/ValidationTemplate/" (22349 28190 908348 700000) "ValidationTemplatePage.js" "ValidationTemplateAdminPage.js" "NewTemplateModal.js~" "NewTemplateModal.js" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-features/engine-papatool/Criteo.PapaTooling.UI.E2ETest/e2e-tests/specs/model-design/" (22343 9671 891282 500000) "validation-template-admin.js" "project-viewing.js" "project-edition.js~" "project-edition.js" "project-creation.js" "feature-editing.js" "experiment-creation.js~" "experiment-creation.js" ".#project-edition.js" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-features/engine-papatool/Criteo.PapaTooling.UI.E2ETest/e2e-tests/pages/ModelDesign/ModelDesignViewPage/" (22339 10321 966578 600000) "ValidationConfigTab.js" "ValidationConfigs/" "ResultsTab.js" "ModelDesignProject.js" "GeneralTab.js" "FeatureTransfoTab.js" "ExperimentTab.js" "DataSetTab.js" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-features/engine-papatool/Criteo.PapaTooling.UI.E2ETest/e2e-tests/util/" (22332 40338 88892 500000) "users.js" "select2Option.js" "Select2Multi.js~" "Select2Multi.js" "select2Base.js" "baseModal.js" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-features/engine-papatool/Criteo.PapaTooling.UI.E2ETest/e2e-tests/" (22323 21579 582402 200000) "util/" "specs/" "pages/" "login/" "../" "./")
+
+ ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-features/engine-papatool/Criteo.PapaTooling.UI.E2ETest/e2e-tests/login/" (22311 23938 23696 500000) "home.js" "../" "./")
 
  ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/WebUI/AngularUI/js/services/" (22103 13838 210514 600000) "test-service.js" "test-results-service.js" "test-results-service-api.js" "nonreg-service.js" "healthStatistics-service.js" "custom-log-service.js" "../" "./")
 
@@ -72,19 +108,13 @@
 
  ("/home/a.pouillaude/" (22093 59489 435777 500000) "Workspace/" "vim/" "vcprompt/" "ssh-log" "emacs-X11.exe.stackdump" "cbs.log" "Cambridge - The Art of Electronics - 2nd ed. -  Horowitz & Hill.pdf" "bin/" "bash_profile.old" "bashrc.old" "apt-cyg/" ".vimviews/" ".vimundo/" ".vimswap/" ".vimrc.local" ".vimrc.bundles" ".vimrc.before" ".vimrc" ".viminfo" ".vimbackup/" ".vim/" ".subversion/" ".ssh/" ".spf13-vim-3/" ".rbenv/" ".profile" ".logout" ".lesshst" ".inputrc" ".gitconfig~" ".gitconfig" ".emacs.old" ".emacs.d/" ".config/" ".cache/" ".bash_profile" ".bash_logout" ".bash_history" ".bashrc" "../" "./")
 
- ("/home/a.pouillaude/Workspace/src/" (22093 40582 839217 600000) "Gource/" "glew/" "CriteoProjects/" "cbs.log" "../" "./")
-
  ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/Criteo.TestFwk.AggregatedData.WebUI/" (22026 32025 677519 400000) "../" "./")
-
- ("/home/a.pouillaude/Workspace/src/CriteoProjects/" (22052 55189 84797 500000) "packages/" "obj/" "logs/" "engine-prediction/" "engine-infrastructure/" "engine-features/" "criteoprojects.v11.suo" "criteoprojects.sln.DotSettings.user" "criteoprojects.sln" "cbs.log" "bin/" ".nuget/" ".cbs/" "../" "./")
 
  ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/" (22076 54285 20383 400000) "Tests.nunit" "src/" "script/" "OWNERS" "Criteo.TestFwk.TestRunner.v11.suo" "Criteo.TestFwk.TestRunner.sln" "cbs.log" "bin/" ".nuget/" ".gitignore" ".git/" "../" "./")
 
  ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/criteo-testfwk/src/WebUI/AngularUI/js/controllers/" (22008 16919 896982 600000) "test.js" "test-ui.js" "test-results-api-ctrl.js~" "test-results-api-ctrl.js" "results-tests.js" "nonreg.js" "list-tests.js" "index.js" "healthStatistics.js" "custom-log.js" "../" "./")
 
  ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-infrastructure/" (21990 63249 161341 800000) "criteo-testfwk/" "../" "./")
-
- ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-features/" (22002 37133 646433 900000) "engine-webcore/" "engine-papatool/" "../" "./")
 
  ("/home/a.pouillaude/Workspace/src/CriteoProjects/engine-features/engine-webcore/" (22006 36873 517795 100000) "Criteo.EngineTooling.WebCore/" ".gitignore" ".git/" "../" "./")
 )
